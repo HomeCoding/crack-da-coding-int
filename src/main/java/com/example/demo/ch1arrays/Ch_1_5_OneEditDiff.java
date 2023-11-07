@@ -47,15 +47,12 @@ public class Ch_1_5_OneEditDiff {
                     foundDiff = true;
                 }
                 if (smaller.length() == bigger.length()) {
-                    iBigger++;
                     iSmaller++;
-                } else {
-                    iBigger++;
                 }
             } else {
-                iBigger++;
                 iSmaller++;
             }
+            iBigger++;
         }
 
         return true;
