@@ -1,6 +1,6 @@
 package com.example.demo.ch1arrays;
 
-public class Ch_1_2_Urlify {
+public class Ch_1_3_Urlify {
     private static final char SPACE = ' ';
 
     public static void main(String[] args) {
